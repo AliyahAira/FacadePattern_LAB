@@ -1,24 +1,24 @@
 public class HomeInterface {
 
-    private Light light;
-    private TV tv;
-    private AirConditioning airConditioning;
+    private HomeService hsLight;
+    private HomeService hsTV;
+    private HomeService hsAirConditioning;
 
-    public HomeInterface() {
-        this.light = new Light();
-        this.tv = new TV();
-        this.airConditioning = new AirConditioning();
+    public HomeInterface(HomeService hsLight, HomeService hsTV, HomeService hsAirConditioning) {
+        this.hsLight = hsLight;
+        this.hsTV = hsTV;
+        this.hsAirConditioning = hsAirConditioning;
     }
 
     public void turnOnAll() {
-        light.turnOn();
-        tv.turnOn();
-        airConditioning.turnOn();
+        hsLight.turnOn();
+        hsTV.turnOn();
+        hsAirConditioning.turnOn();
     }
 
     public void turnOffAll() {
-        light.turnOff();
-        tv.turnOff();
-        airConditioning.turnOff();
+        hsLight.turnOff();
+        hsTV.turnOff();
+        hsAirConditioning.turnOff();
     }
 }
