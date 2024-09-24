@@ -4,7 +4,6 @@ public class Light implements HomeService {
         System.out.println("Light is ON... ✔️ ");
 
     }
-
     public void turnOff() {
         System.out.println("Light is OFF... ❌ ");
     }
