@@ -19,5 +19,5 @@ The HomeApp needs to manage various home services for an intelligent home system
 -HomeApp: The client class that uses the HomeInterface to access and utilize home services seamlessly.
 
 
-**UML DIAGRAM**![Blank diagram](https://github.com/user-attachments/assets/3d6fa3e4-7613-4566-a8ed-515edda2953b)
+
 
